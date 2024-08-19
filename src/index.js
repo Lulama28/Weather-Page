@@ -7,3 +7,15 @@ function search(event) {
 
 axios.get(apiUrl).then(displayTemperature);
 }
+
+function displayTemperature(response) {
+    console.log(response);
+    console.log(response.data.temperature.current);
+  
+    let temperatureElement = document.querySelector("#temperature");
+    let temperature = Math.round(response.data.temperature.current);
+    temperatureElement.innerHTML = temperature;
+    let cityElement = document.querySelector("#current-city");
+    cityElement.innerHTML = response.data.city;
+  }
+  
