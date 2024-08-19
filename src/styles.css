@@ -53,3 +53,7 @@ main{
   line-height: 24px;
   font-weight: 500;
 }
+
+.temperature-container{
+    display: flex;
+}
