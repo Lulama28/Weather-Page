@@ -25,7 +25,7 @@ header{
 .form-button{
     background: rgb(49, 153, 238);
     color: white;
-    padding: 15px 30px;
+    padding: 8px 20px;
     border: none;
     font-size: 18px;
     margin-left: 5px;
@@ -35,11 +35,11 @@ header{
 .search-form-input{
     background-color: rgb(49, 153, 238);
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   color: white;
-  width: 80%;
+  width: 70%;
   font-size: 16px;
-  padding: 15px 20px;
+  padding: 15px 25px;
 }
 main{ 
     padding: 30px 0;
