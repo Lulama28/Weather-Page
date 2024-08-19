@@ -25,12 +25,21 @@ header{
 .form-button{
     background: rgb(49, 153, 238);
     color: white;
-    padding: 16px 36px;
+    padding: 15px 30px;
     border: none;
     font-size: 18px;
     margin-left: 5px;
     border-radius: 6px;
-    color: whitesmoke;
+    
+}
+.search-form-input{
+    background-color: rgb(49, 153, 238);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
 }
 main{ 
     padding: 30px 0;
@@ -56,4 +65,28 @@ main{
 
 .temperature-container{
     display: flex;
+}
+.icon{
+    width: 88px;
+    height: 88px;
+  
+}
+
+.weather-temperature{
+    font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.weather-symbol{
+    margin-top: 6px;
+  font-size: 28px;
+}
+
+footer{
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
 }
