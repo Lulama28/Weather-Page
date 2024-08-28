@@ -10,24 +10,30 @@
 <body>
     <div class="weather-page">
     <header>
-        <form class="search-form" id="search-form">
-            <input type="search" placeholder="Enter a city..." required id="search-form-input" class="search-form-input">
-            <input type="button" value="🔎 Search" id="form-button" class="form-button">
-        </form>
+       
+        <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              class="search-input"
+              id="search-input"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
     </header>
     <main>
         <div class="weather-details">
-            <h1 class="weather-city" id="current-city">Johannesburg</h1>
+            <h1 class="current-city" id="current-city">Johannesburg</h1>
             <p class="weather-information">
-                Wednesday 21:27, clear sky<br/>
-            
-                Humidity: 67%, Wind: 3.01 km/h
+                <span id="current-date"></span><span id="current-time">, </span><span id="weather-description"> </span><br/>
+                <span id="description">Humidity: 67%, Wind: 3.01 km/h</span> 
+                
             </p>
         </div>
-        <div class="temperature-container">
-            <div id="icon"></div>
-            <div class="weather-temperature" id="temperature"></div>
-            <div class="weather-symbol">°C</div>
+        <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span><span class="current-temperature-value" id="current-temperature"
+              >24</span><span class="current-temperature-unit">°C</span>
         </div>
         
         
